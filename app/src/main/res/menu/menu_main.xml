@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/menu"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/avtor"
+                android:icon="@drawable/telegram"
+                android:title="Обратная связь"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/abount"
+                android:icon="@drawable/manual"
+                android:title="Видеообзор"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/abount2"
+                android:icon="@drawable/manual"
+                android:title="Инструкция"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/donate_author"
+                android:icon="@drawable/donate"
+            android:title="Благодарность - Отправить!"
+            app:showAsAction="ifRoom" />
+
+            <!-- Пункт без ссылки, просто текст -->
+            <item
+                android:title="Разработчик - Фадеев.А.С"
+                android:enabled="false" />
+        </menu>
+    </item>
+</menu>
